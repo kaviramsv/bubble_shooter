@@ -4,7 +4,7 @@ function usePosition(start) {
   const [position, setPosition] = useState({ x: 500, y: 500 });
   const [score, setScore] = useState(0);
   const [target, setTarget] = useState({ x: 200, y:200 });
-  const [redtarget, setRedTarget] = useState({ x: 200, y: 200 });
+  const [redtarget, setRedTarget] = useState({ x: 500, y: 500 });
   const [win, setWin] = useState("  ");
   const [counter, setCounter] = useState(100);
 

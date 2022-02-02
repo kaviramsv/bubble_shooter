@@ -7,11 +7,11 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <>
-      <Box background={"pink"} height={100}>
-        <HStack>
-        <Link to="/how"><Text fontSize={"2xl"} >How  |</Text> </Link>
-        <Link to="/about"><Text fontSize={"2xl"}>About |</Text></Link>
-        <Link to="/game"><Text fontSize={"2xl"}>Game </Text></Link>
+      <Box background={"pink.600"} height={100}>
+        <HStack pt={"20px"}>
+        <Link to="/how"><Text fontSize={"4xl"} fontweight={"bold"} color={"white"}>How  |</Text> </Link>
+        <Link to="/about"><Text fontSize={"4xl"} fontweight={"bold"} color={"white"}>About |</Text></Link>
+        <Link to="/game"><Text fontSize={"4xl"} fontweight={"bold"} color={"white"}>Game </Text></Link>
         </HStack>
       </Box>
 

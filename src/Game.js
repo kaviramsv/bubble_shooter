@@ -68,8 +68,9 @@ const Mouse = () => {
         <p>player(x,y) :{position.x},{position.y}</p>
 
         <h3> {counter} </h3>
-        <div style={style_blue}></div>
-        <div style={style_red}><h1>-1</h1></div>
+        {counter && <div style={style_blue}></div>}
+        {counter &&  <div style={style_red}><h1>-1</h1></div>}
+        
         <div style={style}></div>
         <p></p>       
       </div>
