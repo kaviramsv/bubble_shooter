@@ -1,15 +1,17 @@
 import Example from './Example';
 import Title from './Title';
-import Mouse from './Mouse';
+import Game from './Game';
+import Views from './Views';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-   
-    <Mouse />
 
+    <div className="App">   
+    <Views/>
+    {/* <Mouse /> */}
     </div>
+    
   );
 }
 
